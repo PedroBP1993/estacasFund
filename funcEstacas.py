@@ -7,3 +7,9 @@ def areaEstaca(diametro):
 
 
     return area
+
+def volumeEstaca(diametro, prof):
+
+    volumeEst = areaEstaca(diametro) * prof
+
+    return volumeEst
